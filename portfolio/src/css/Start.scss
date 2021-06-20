@@ -1,0 +1,22 @@
+.start{
+    width: 100%;
+    height: 56.5rem;
+    background-color: rgb(223, 223, 223);
+    *{
+        width: 100%;
+        height: 100%;
+    }
+    .portfolio-image{
+        padding: 4em 2em 0 0;
+    }
+    .portfolio-title{
+        padding: 4em 2em 4em 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .portfolio-title > *{
+        height: 40%;
+        background-color: rgb(168, 168, 168);
+    }
+}
