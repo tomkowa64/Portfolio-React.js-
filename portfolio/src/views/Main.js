@@ -9,11 +9,13 @@ import About from '../components/About';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Navigation from '../components/Navigation';
 
 function Main() {
   return (
     <section className="main">
         <PortfolioNavbar />
+        <Navigation />
         <Start />
         <Projects />
         <About />

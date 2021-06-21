@@ -8,7 +8,7 @@ import {Col} from 'react-bootstrap';
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
         <Container fluid={true}>
           <Row>
             <Col sm={6}>

@@ -7,7 +7,7 @@ import {Row} from 'react-bootstrap';
 
 function Contact() {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
         <Container fluid={true}>
           <Row></Row>
         </Container>

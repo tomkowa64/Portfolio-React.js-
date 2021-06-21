@@ -7,7 +7,7 @@ import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 function Skills() {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
         <Container fluid={true}>
           <Row>
             <Col sm={4}>

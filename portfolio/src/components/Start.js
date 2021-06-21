@@ -9,7 +9,7 @@ import {Image} from 'react-bootstrap';
 
 function Start() {
   return (
-    <section className="start">
+    <section className="start" id="start">
         <Container fluid={true}>
           <Row>
             <Col sm={4} className="portfolio-image">
