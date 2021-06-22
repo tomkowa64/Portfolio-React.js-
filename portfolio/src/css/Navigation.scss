@@ -1,14 +1,30 @@
 .navigation{
+    padding-top: 5em;
     height: 14rem;
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #FFF;
-    border-bottom: #585b5c 1px solid;
     z-index: 10;
     transition: top 0.4s linear;
+    -webkit-box-shadow: 5px 5px 19px 1px rgba(0,0,0,0.46); 
+    box-shadow: 5px 5px 19px 1px rgba(0,0,0,0.46);
+    background-color: #FFF;
     *{
         width: 100%;
         height: 100%;
+    }
+    .navigation-icons-group{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.3em;
+        a{
+            filter: grayscale(70%);
+            transition: filter 0.7s linear;
+        }
+        a:hover{
+            filter: grayscale(0%);
+            
+            
+        }
     }
 }
