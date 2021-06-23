@@ -5,7 +5,6 @@ import '../css/Navigation.scss';
 import {Container} from 'react-bootstrap';
 
 
-
 function Navigation() {
     var prevScrollpos = window.pageYOffset;
 
