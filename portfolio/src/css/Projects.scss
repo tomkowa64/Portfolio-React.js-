@@ -1,7 +1,7 @@
 .projects{
     height: 30rem;
     width: 100%;
-    background-color: #00a7e3;
+    background-color: #20232a;
     *{
         width: 100%;
         height: 100%;
@@ -14,8 +14,8 @@
         justify-content: center;
         overflow: hidden;
         *{
-            border-left: 1px solid #FFF;
-            border-right: 1px solid #FFF;
+            border-left: 1px solid #20232a;
+            border-right: 1px solid #20232a;
             transform: skew(-15deg);
             min-width: 20%;
             max-width: 20% !important;
@@ -27,7 +27,8 @@
             min-width: 40% !important;
         }
         .project-bg{
-            background-color: #cccccc; /* Used if the image is unavailable */
+            background-color: #20232a; /* Used if the image is unavailable */
+            opacity: 0.8;
             height: 100%; /* You must set a specified height */
             background-repeat: no-repeat; /* Do not repeat the image */
             background-size: cover; /* Resize the background image to cover the entire container */
@@ -45,7 +46,7 @@
             color: #00a7e3;
         }
         #project1:hover::before{
-            background-color: #FFF;
+            background-color: #20232a;
             opacity: 0.8;
             content: "KJ Technologies | PHP (Laravel)";
             transition: background 0.3s ease-in-out;
@@ -60,10 +61,10 @@
             font-size: 3em;
             width: 100%;
             height: 100%;
-            color: #00a7e3;
+            color: #61dafb;
         }
         #project2:hover::before{
-            background-color: #FFF;
+            background-color: #20232a;
             opacity: 0.8;
             content: "Control Panel | Java";
             transition: background 0.3s ease-in-out;
@@ -78,10 +79,10 @@
             font-size: 3em;
             width: 100%;
             height: 100%;
-            color: #00a7e3;
+            color: #61dafb;
         }
         #project3:hover::before{
-            background-color: #FFF;
+            background-color: #20232a;
             opacity: 0.8;
             content: "Portfolio | JS (React.js)";
             transition: background 0.3s ease-in-out;
@@ -96,10 +97,10 @@
             font-size: 3em;
             width: 100%;
             height: 100%;
-            color: #00a7e3;
+            color: #61dafb;
         }
         #project4:hover::before{
-            background-color: #FFF;
+            background-color: #20232a;
             opacity: 0.8;
             content: "E-commerce Project | TODO (React.js)";
             transition: background 0.3s ease-in-out;

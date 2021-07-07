@@ -17,8 +17,8 @@ function Main() {
         <PortfolioNavbar />
         <Navigation />
         <Start />
-        <Projects />
         <About />
+        <Projects />
         <Skills />
         <Contact />
         <Footer />
