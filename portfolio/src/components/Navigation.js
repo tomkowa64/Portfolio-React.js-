@@ -39,7 +39,7 @@ function Navigation() {
                   
                     <stop offset="0.7142857142857142" stop-color="#66acdd" />
                   
-                    <stop offset="0.8571428571428571" stop-color="#48a9e0" />
+                    <stop offset="0.8571428571428571" stop-color="#61dafb" />
                   
                     <stop offset="1" stop-color="#00a7e3" />
                   
@@ -64,7 +64,7 @@ function Navigation() {
                   
                     <stop offset="0.7142857142857142" stop-color="#66acdd" />
                   
-                    <stop offset="0.8571428571428571" stop-color="#48a9e0" />
+                    <stop offset="0.8571428571428571" stop-color="#61dafb" />
                   
                     <stop offset="1" stop-color="#00a7e3" />
                   
@@ -87,7 +87,7 @@ function Navigation() {
                   
                     <stop offset="0.7142857142857142" stop-color="#66acdd" />
                   
-                    <stop offset="0.8571428571428571" stop-color="#48a9e0" />
+                    <stop offset="0.8571428571428571" stop-color="#61dafb" />
                   
                     <stop offset="1" stop-color="#00a7e3" />
                   
@@ -110,7 +110,7 @@ function Navigation() {
                   
                     <stop offset="0.7142857142857142" stop-color="#66acdd" />
                   
-                    <stop offset="0.8571428571428571" stop-color="#48a9e0" />
+                    <stop offset="0.8571428571428571" stop-color="#61dafb" />
                   
                     <stop offset="1" stop-color="#00a7e3" />
                   
@@ -133,7 +133,7 @@ function Navigation() {
                   
                     <stop offset="0.7142857142857142" stop-color="#66acdd" />
                   
-                    <stop offset="0.8571428571428571" stop-color="#48a9e0" />
+                    <stop offset="0.8571428571428571" stop-color="#61dafb" />
                   
                     <stop offset="1" stop-color="#00a7e3" />
                   

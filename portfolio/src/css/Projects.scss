@@ -57,11 +57,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 2em;
+            font-size: 3em;
             width: 100%;
+            height: 100%;
+            color: #00a7e3;
+        }
+        #project2:hover::before{
+            background-color: #FFF;
             opacity: 0.8;
-            color: #FFF;
-            content: "Control Panel ";
+            content: "Control Panel | Java";
+            transition: background 0.3s ease-in-out;
         }
         #project3{
             background-image: url("../images/portfolio.png"); /* The image used */
@@ -70,12 +75,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 2em;
+            font-size: 3em;
             width: 100%;
             height: 100%;
+            color: #00a7e3;
+        }
+        #project3:hover::before{
+            background-color: #FFF;
             opacity: 0.8;
-            color: #FFF;
-            content: "Portfolio";
+            content: "Portfolio | JS (React.js)";
+            transition: background 0.3s ease-in-out;
         }
         #project4{
             background-image: url("../images/todo.png"); /* The image used */
@@ -84,12 +93,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 2em;
+            font-size: 3em;
             width: 100%;
             height: 100%;
+            color: #00a7e3;
+        }
+        #project4:hover::before{
+            background-color: #FFF;
             opacity: 0.8;
-            color: #FFF;
-            content: "E-commerce";
+            content: "E-commerce Project | TODO (React.js)";
+            transition: background 0.3s ease-in-out;
         }
     }
 }
