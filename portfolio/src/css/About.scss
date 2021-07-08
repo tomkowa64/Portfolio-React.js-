@@ -9,7 +9,7 @@
     }
     .about-desc{
         border-left: 1px solid #FFF;
-        border-radius: 20px;
+        border-radius: 2px;
         .about-description{
             color: #FFF;
             font-size: 1.5em;
@@ -30,7 +30,7 @@
         flex-direction: column;
         justify-content: space-between;
         border-right: 1px solid #FFF;
-        border-radius: 20px;
+        border-radius: 2px;
         .exp-item{
             display: inline;
             a{
@@ -45,8 +45,8 @@
             padding-left: 10px;
             padding-right: 10px;
             svg{
-                width: 3em;
-                height: 3em;
+                width: 2.3em;
+                height: 2.3em;
             }
         }
         .about-exp-title{
