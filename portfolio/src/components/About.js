@@ -7,10 +7,8 @@ import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 
 //Icons import from React bootstrap
-import {Journals} from 'react-bootstrap-icons';
-import {Book} from 'react-bootstrap-icons';
-import {CodeSlash} from 'react-bootstrap-icons';
-import {Terminal} from 'react-bootstrap-icons';
+import {ArrowBarRight} from 'react-bootstrap-icons';
+
 
 function About() {
   return (
@@ -36,10 +34,10 @@ function About() {
             <Col sm={6}>
               <div className="about-exp">
                 <div className="text-center about-exp-title">Nauka i Doświadczenie</div>
-                <div className="row exp-item"><Book color="#61dafb" />2015 - 2019 - Nauka w Technikum nr 6 w Rzeszowie</div>
-                <div className="row exp-item"><CodeSlash color="#61dafb"  />2017 (Październik) - Praktyki w Firmie<a target="_blank" href="https://aberit.eu/en/">Aberit</a></div>
-                <div className="row exp-item"><Journals color="#61dafb"  />2018 (Lipiec) - Staże w Firmie<a target="_blank" href="https://nanocoder.pl/">NanoCoder</a></div>
-                <div className="row exp-item"><Terminal color="#61dafb"  />2018 (Październik) - Praktyki zagraniczne w Portugalii</div>
+                <div className="row exp-item"><ArrowBarRight color="#61dafb" />2015 - 2019 - Nauka w Technikum nr 6 w Rzeszowie</div>
+                <div className="row exp-item"><ArrowBarRight color="#61dafb"  />2017 (Październik) - Praktyki w Firmie<a target="_blank" href="https://aberit.eu/en/">Aberit</a></div>
+                <div className="row exp-item"><ArrowBarRight color="#61dafb"  />2018 (Lipiec) - Staże w Firmie<a target="_blank" href="https://nanocoder.pl/">NanoCoder</a></div>
+                <div className="row exp-item"><ArrowBarRight color="#61dafb"  />2018 (Październik) - Praktyki zagraniczne w Portugalii</div>
               </div>
             </Col>
           </Row>
