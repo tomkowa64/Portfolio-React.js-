@@ -8,6 +8,8 @@ import '../css/Contact.scss';
 import {Container} from 'react-bootstrap';
 import {Row} from 'react-bootstrap';
 
+//Icons import from react bootstrap
+import {Envelope} from 'react-bootstrap-icons';
 
 class Contact extends React.Component {
   constructor(props) {
@@ -21,6 +23,7 @@ class Contact extends React.Component {
 render(){
   return (
     <section className="contact" id="contact">
+        <div className="section-label"><Envelope /></div>
         <Container fluid={true}>
           <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div className="form-group">
@@ -35,7 +38,7 @@ render(){
                 <label htmlFor="message">Wiadomość</label>
                 <textarea className="form-control" rows="5"></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary">Wyślij</button>
           </form>
         </Container>
     </section>
