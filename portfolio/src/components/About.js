@@ -38,6 +38,7 @@ function About() {
                 <div className="row exp-item"><ArrowBarRight color="#61dafb"  />2017 (Październik) - Praktyki w Firmie<a target="_blank" href="https://aberit.eu/en/">Aberit</a></div>
                 <div className="row exp-item"><ArrowBarRight color="#61dafb"  />2018 (Lipiec) - Staże w Firmie<a target="_blank" href="https://nanocoder.pl/">NanoCoder</a></div>
                 <div className="row exp-item"><ArrowBarRight color="#61dafb"  />2018 (Październik) - Praktyki zagraniczne w Portugalii</div>
+                <div className="row exp-item"><ArrowBarRight color="#61dafb"  />2019 - Aktualnie - Studia (Informatyka) na Uniwersytecie Rzeszowskim</div>
               </div>
             </Col>
           </Row>

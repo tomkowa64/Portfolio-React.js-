@@ -44,12 +44,15 @@
             width: 100%;
             height: 100%;
             color: #00a7e3;
-        }
-        #project1:hover::before{
             background-color: #20232a;
             opacity: 0.8;
             content: "KJ Technologies | PHP (Laravel)";
-            transition: background 0.3s ease-in-out;
+            padding: 10px;
+        }
+        #project:hover::before{
+            background-color: #20232a;
+            opacity: 0.5;
+            content: "KJ Technologies | PHP (Laravel)";
         }
         #project2{
             background-image: url("../images/cp.png"); /* The image used */
@@ -62,12 +65,10 @@
             width: 100%;
             height: 100%;
             color: #61dafb;
-        }
-        #project2:hover::before{
             background-color: #20232a;
             opacity: 0.8;
-            content: "Control Panel | Java";
-            transition: background 0.3s ease-in-out;
+            content: "Control Panel | Java ";
+            padding: 10px;
         }
         #project3{
             background-image: url("../images/portfolio.png"); /* The image used */
@@ -80,13 +81,12 @@
             width: 100%;
             height: 100%;
             color: #61dafb;
-        }
-        #project3:hover::before{
             background-color: #20232a;
             opacity: 0.8;
-            content: "Portfolio | JS (React.js)";
-            transition: background 0.3s ease-in-out;
+            content: "Portfolio | React";
+            padding: 10px;
         }
+
         #project4{
             background-image: url("../images/todo.png"); /* The image used */
         }
@@ -98,12 +98,10 @@
             width: 100%;
             height: 100%;
             color: #61dafb;
-        }
-        #project4:hover::before{
             background-color: #20232a;
             opacity: 0.8;
-            content: "E-commerce Project | TODO (React.js)";
-            transition: background 0.3s ease-in-out;
+            content: "E-commerce app | TODO";
+            padding: 10px;
         }
     }
 }
