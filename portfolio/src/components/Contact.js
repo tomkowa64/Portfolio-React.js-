@@ -20,6 +20,33 @@ class Contact extends React.Component {
       message: ''
     }
 }
+
+handleSubmit(e) {
+  e.preventDefault();
+
+  fetch('http://localhost:3002/send', {
+      method: "POST",
+      body: JSON.stringify(this.state),
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+    }).then(
+    (response) => (response.json())
+      ).then((response)=> {
+    if (response.status === 'success') {
+      alert("Message Sent.");
+      this.resetForm()
+    } else if(response.status === 'fail') {
+      alert("Message failed to send.")
+    }
+  })
+}
+
+resetForm(){
+  this.setState({name: '', email: '', message: ''})
+}
+
 render(){
   return (
     <section className="contact" id="contact">
@@ -55,9 +82,6 @@ onEmailChange(event) {
 
 onMessageChange(event) {
   this.setState({message: event.target.value})
-}
-
-handleSubmit(event) {
 }
 
 }

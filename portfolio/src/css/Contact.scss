@@ -10,8 +10,8 @@
     }
     .section-label{
         height: 8rem;
-        border-bottom-left-radius: 70px;
-        border-bottom-right-radius: 70px;
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 150px;
         width: 60%;
         display: flex;
         margin-left: auto;
@@ -63,7 +63,7 @@
             align-items: center;
             letter-spacing: 10px;
             font-size: 20px;
-            font-weight: 700;
+            font-weight: 600;
         }
     }
 }
