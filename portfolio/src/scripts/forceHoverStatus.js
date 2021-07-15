@@ -5,23 +5,22 @@ $(function() {
 
     if(expandedState == false){
         $("#project3").addClass("expanded");
-
+        expandedState = true;
     }
     else{
         $("#project3").removeClass("expanded");
-
+        expandedState = false;
     }
 
     $(".project-bg").hover(
         function(){
-            expandedState = true;
+
             $("#project3").removeClass("expanded");
             $(this).addClass("expanded");
         },
         function(){
-            expandedState = false;
-            $("#project3").addClass("expanded");
             $(this).removeClass("expanded");
+            $("#project3").addClass("expanded");
         }
     );
 });
