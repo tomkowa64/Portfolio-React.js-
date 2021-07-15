@@ -9,8 +9,9 @@ import {Row} from 'react-bootstrap';
 //Forcing hover state on first project
 import '../scripts/forceHoverStatus';
 
+
 function Projects() {
-  
+
   return (
     <section className="projects" id="projects">
         <Container fluid={true}>
@@ -21,7 +22,7 @@ function Projects() {
             <Col sm="3" className="project-bg" id="project2">
               
             </Col>
-            <Col sm="3" className="project-bg" id="project3">
+            <Col sm="3" className="project-bg expanded" id="project3">
               
             </Col>
             <Col sm="3" className="project-bg" id="project4">

@@ -22,7 +22,7 @@ function Start() {
                   <p className="job-title">Front-end Dev & Web Designer</p>
                 </Row>
                 <Row className="portfolio-contact-button">
-                  <a>Kontakt</a>
+                  <a href="#contact">Kontakt</a>
                 </Row>
                 <Row className="portfolio-title-icons">
                   <div className="icons-group">

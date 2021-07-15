@@ -42,6 +42,7 @@
             font-size: 2.5em;
             color: #FFF;
             font-family: 'Uchen', serif;
+            border-bottom: 1px solid #FFF;
         }
         .portfolio-title-icons{
             display: flex;
@@ -76,6 +77,14 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                text-decoration: none;
+                color: #61dafb;
+                border-radius: 10px;
+            }
+            a:hover{
+                background-color: #61dafb;
+                color: #20232a;
+                transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
             }
         }
         .portfolio-contact-button:hover{
