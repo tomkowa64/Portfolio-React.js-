@@ -1,6 +1,6 @@
 .contact{
     width: 100%;
-    height: 60rem;
+    height: 65rem;
     background-color: #61dafb;
     color: #20232a;
     *{
@@ -43,9 +43,13 @@
                 height: 30%;
             }
 
-            input,textarea{
+            input{
                 margin-top: -10px;
-                height: 70%;
+                height: 5em;
+            }
+            textarea{
+                margin-top: -10px;
+                height: 8em;
             }
         }
         .btn{
@@ -64,6 +68,28 @@
             letter-spacing: 10px;
             font-size: 20px;
             font-weight: 600;
+        }
+    }
+}
+.contact-about{
+    padding: 50px 100px 50px 100px;
+    color: #61dafb;
+    font-size: 2em;
+    height: 85%;
+    border-radius: 40px;
+    background: #20232a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .contact-about-text{
+        font-size: 0.7em;
+    }
+    p{
+        padding: 0;
+        svg{
+            padding: 0;
+            width: 1.5em;
+            height: 1.5em;
         }
     }
 }
